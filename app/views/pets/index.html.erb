@@ -1,10 +1,8 @@
 <h1>Tender Pets</h1>
 
 <div ng-controller="TenderCtrl">
-  <ul>
-    <li ng-repeat="pet in pets">
-      {{pet}}
-    </li>
-  </ul>
+  <input ng-model="query"></input>
+  <button ng-click="getdata(query)">Get Data</button>
+  {{query}}
 
 </div>

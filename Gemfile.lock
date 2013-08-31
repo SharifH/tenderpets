@@ -1,9 +1,13 @@
+PATH
+  remote: ~/code/project3/ruby_api
+  specs:
+    PetSearch (0.0.7.9)
+      htmlentities
+      nokogiri
+
 GEM
   remote: https://rubygems.org/
   specs:
-    PetSearch (0.0.7.7)
-      htmlentities
-      nokogiri
     actionmailer (3.2.13)
       actionpack (= 3.2.13)
       mail (~> 2.5.3)
@@ -124,7 +128,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  PetSearch
+  PetSearch!
   angularjs-rails
   coffee-rails (~> 3.2.1)
   geocoder
